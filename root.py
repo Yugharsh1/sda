@@ -10,11 +10,11 @@ label1=Label(root)
 def generate_random():
     list1=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
     
-    random_L1=random.randint(53, 63)
-    random_L2=random.randint(27, 52)
+    random_L1=random.randint(1, 26)
+    random_L2=random.randint(1, 26)
     random_L3=random.randint(1, 26)
-    random_L4=random.randint(64, 94)
-    random_L5=random.randint(64, 94)
+    random_L4=random.randint(1, 26)
+    random_L5=random.randint(1, 26)
     
     random_alpha1=list1[random_L1]
     random_alpha2=list1[random_L2]
